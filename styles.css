@@ -1,0 +1,428 @@
+/* Most is copied from W3Schools. My programming is shite so if it looks good,
+it's most likely not mine (lmao). */
+
+.everything {
+    font-family: 'Open Sans', Calibri;
+    text-align: left;
+}
+
+/* Mainbar doesn't exist anymore but I'm leaving it here */
+.Mainbar {
+    font-family: 'Open Sans', Calibri;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Main-Description {
+    text-align: center;
+}
+
+/* Dark mode (Default) background color is copied from Spotify, and adjusted to be slightly brighter and more blue.
+    Text color is pure white (as it really should be on black backgrounds). */
+body {
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+/* Centered Title with a top margin */
+.Title {
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+/* Centered Divider right below the Title in Silver */
+.Title-Divider {
+    border: 0.5px solid #c0c0c0;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    margin-bottom: 1rem;
+}
+
+/* Code Block colors */
+code {
+    background-color: #c0c0c0;
+    color: #3b3b3b;
+    font-size: 16px;
+}
+
+/* Redefined font size because CSS doesn't like me apparently */
+pre {
+    font-size: 16px;
+}
+
+/* "para" = Paragraph | Redefined everything because CSS still doesn't like me */
+.para {
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Open Sans', Calibri;
+    margin-bottom: 2px;
+}
+
+/* Centered Paragraph */
+.para-C {
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Change the color of hyperlinks */
+a:link {
+    color: #7fffd4;
+}
+
+/* Don't change the color of the hyperlink after visiting */
+a:visited {
+    color: #7fffd4;
+}
+
+/* Change the color of the hyperlink when hovering over it */
+a:hover {
+    color: beige;
+}
+
+/* Doesn't exist anymore but I'm leaving it here lol */
+.Back {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+/* Also Doesn't exist anymore lmao */
+.Top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+/* Left side Divider for Headers (also in Silver) */
+.Divider {
+    border: 0.5px solid #c0c0c0;
+    margin-left: 5rem;
+    margin-right: 35rem;
+    margin-bottom: 1rem;
+    min-width: 100px;
+}
+
+/* Headers are again redefined because CSS */
+.H {
+    text-align: left;
+    margin-bottom: 1px;
+    margin-left: 5rem;
+    font-family: 'Open Sans', Calibri;
+}
+
+/* Is literally used once in the website to set a margin */
+.ZS {
+    margin-top: 5px;
+}
+
+/* Image margins for top and bottom */
+.Img {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Small Left Divider */
+.sm-Divider {
+    border: 0.5px solid #c0c0c0;
+    margin-left: 1rem;
+    margin-right: 30rem;
+    margin-bottom: 1rem;
+}
+
+/* Code block in Paragraph needs margins and stuff redefined because yay */
+.code-para {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* I honestly don't remember using this even once. It's just center aligned text with automatic side margins */
+.github {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    color: beige
+}
+
+/* Light Mode for blind people */
+.light-mode {
+    background-color: #dcd8d5;
+    color: black;
+  }
+
+/* Light Mode (and Dark Mode) non-visited links colors are the same as visited */
+.light-mode a:link {
+    color: #80002b;
+}
+
+/* Light Mode link colors are also just inverted versions of each other lmao */
+.light-mode a:visited {
+    color: #80002b;
+}
+
+.light-mode a:hover {
+    color: #0a0a23;
+}
+
+.light-mode .Section-Links {
+    border: 1px solid #a0504d;
+}
+
+.light-mode .name {
+    color: #0e0e48;
+}
+
+.light-mode .topnav {
+    background-color: #bdb3ab;
+    border: solid 2px #80002b;
+}
+
+.light-mode .topnav a {
+    background-color: #bdb3ab;
+    color: #000000;
+    border: solid 1px #80002b;
+}
+
+.light-mode .topnav p {
+    background-color: #bdb3ab;
+    color: #000000;
+    border: solid 1px #80002b;
+}
+
+.light-mode .topnav a:hover {
+    background-color: #dcd8d5;
+    color: #0e0e48;
+}
+
+.light-mode .topnav a.active {
+    background-color: #878481;
+    color: #000000;
+    border: solid 1px #80002b;
+}
+
+/* Everything under is copied from styles2.css and pasted here because if I don't, nothing works :P */
+
+/* Add a (very) slightly brighter background color to the top navigation to differentiate it easier 
+    Also adds a 2px thick border to the entire topnav */
+.topnav {
+    background-color: #282D2F;
+    overflow: hidden;
+    border: solid 2px aquamarine;
+}
+    
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav p {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 15.73px;
+    margin: 0;
+    height: 24px;
+    border: solid 1px aquamarine;
+}
+    
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #282D2F;
+    color: beige;
+}
+    
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #5d5f4F;
+    color: #ffffff;
+    border: solid 1px aquamarine;
+}
+
+/* Hide the link that should open and close the topnav on small screens (<770px wide) */
+.topnav .icon {
+    display: none;
+    border: solid 1px aquamarine;
+}
+
+@media screen and (min-width: 950px) {
+    .topnav .nothing {display: none}
+}
+
+/* When screen is less than 770px wide, hide all but one link and show icon */
+@media screen and (max-width: 950px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav .nothing {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 950px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive p {
+      display: block;
+      float: none;
+      text-align: left;
+    }
+  }
+
+/* The dropdown container (Doesn't exist anymore) */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button (These don't exist anymore) */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add a red background color to navbar links on hover (Horrible color, don't use this, it's awful) */
+.everything .Mainbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: beige;
+}
+  
+/* Dropdown content (hidden by default) (Doesn't exist anymore) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3b3b3b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Fixes the hover window going off the screen (Related to dropdown menu; Doesn't exist anymore) */
+.right-fix {
+    right: 0;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #282D2F;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Slider for Light Mode Switch start */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    /* display: inline-block; */
+    width: 60px;
+    height: 34px;
+    padding: 0;
+    float: left;
+    margin-left: 1rem;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0.7rem;
+    left: -0.5rem;
+    right: 0.5rem;
+    bottom: -0.7rem;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 0;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+
+/* Slider for Light Mode end */
